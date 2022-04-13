@@ -1,46 +1,35 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Vivemos em um mundo cada vez mais informatizado e conectado, a informação é crucial em nossas vidas, uma facilitadora em vários aspectos, seja em uma simples busca no navegador ou numa informação mais complexa como por exemplo um bom local para uma viagem.  
+
+Diante do exposto, enxergamos uma necessidade de facilitar o acesso as informações de pessoas com algum tipo de deficiência, uma vez que este seleto grupo de pessoas enfrentam dificuldades para encontrar lugares acessíveis as suas deficiências, principalmente em ambientes de lazer (bares, restaurantes, ambientes ao ar livre, museus, teatro, cinema, shows), e a partir disso observamos a relevância de criar uma ferramenta para facilitar o acesso as informações e também incentivar os demais estabelecimentos a se tornarem ambientes inclusivos.
+
+Portanto, é de suma importância que nos dias de hoje todos tenham acesso aos mesmos ambientes, uma vez que se o mesmo não estiver devidamente adequado para receber estas pessoas, fica praticamente inviável o lazer e a socialização delas. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Conforme o exposto, o problema que se procura resolver com esse projeto é a dificuldade de acesso a um local que não é devidamente adequado e preparado para receber pessoas que possui algum tipo de deficiência, e por esse local não ser devidamente adequado, existe essa dificuldade por não ser acessível a todos os deficientes que buscam algum tipo de lazer. Uma vez que a vida social de um ser humano é extremamente importante para uma vida saudável e um bem estar adequado, e juntamente com o afastamento social que afeta diretamente essas pessoas e suas famílias, podendo desencadear doenças como o stress, a depressão, e outras patologias da mente humana. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo deste trabalho é a criação de um site que contém quais estabelecimentos ou espaços públicos podem ser acessados e utilizados por toda a população, facilitando na busca por esses ambientes, os propósitos são: 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+* Divulgar os principais locais acessíveis para as pessoas com deficiência.  
+* Incentivar os demais estabelecimentos para que também façam as adaptações necessárias para receber este público. 
+* Permitir que o usuário faça um comentário sobre o local, de forma que as outras pessoas se informem também dos pontos positivos e negativos do local. 
+* Impacto social, como, maior interação, acessibilidade digital, acesso a lazer 
+* Construir um site totalmente concentrado em facilitar o acesso das pessoas com deficiência, por exemplo: Leitura em áudio para os deficientes visuais. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com o IBGE, 24% da população brasileira é composta por pessoas com deficiência e essa grande parte da população luta diariamente para conseguir se mobilizar e visitar locais que deveriam ser obrigatoriamente acessíveis a esse público, é possível enxergar claramente em nosso dia a dia a falta de acesso para estas pessoas em vários ambientes, demonstrando então a necessidade de um site que facilite essa busca por lazer inclusivo. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Encontramos no mercado a oportunidade de inovar e criar uma solução prática e fácil para os usuários, pesquisamos no mercado as soluções existentes e são poucas, além de não serem 100% funcionais - são eles: Guia Turismo Acessível, Guia de Rodas, Wheel Map - Nossa proposta é deixar uma plataforma 100% funcional, mostrando realmente todos os locais acessíveis e otimizando sempre o site. O foco também consiste em futuras integrações com outros aplicativos, como Instagram, Facebook, etc., para que o usuário possa divulgar e compartilhar comentários sobre os locais visitados, auxiliando também no complemento de dados no site. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público alvo do nosso projeto seriam pessoas que possuem algum tipo de deficiência e/ou os seus familiares de todas as idades e de todos os gêneros que buscam por um ambiente inclusivo de lazer, para que possam ter acesso ao local e desfrutarem sem nenhum tipo de problema.  
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O foco deste projeto são pessoas com algum tipo de deficiência – cadeirantes, pessoas com alguma limitação física, cegos, surdos, etc. – que muitas vezes querem ter um momento de descanso e lazer com seus amigos e familiares, mas por não encontrarem locais que são acessíveis às suas necessidades, ficam impossibilitados de usufruir desse direito básico. 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Desta forma, definiu-se como público-alvo deste projeto pessoas de todos os gêneros e idades que possui algum tipo de deficiência, assim como seus amigos e familiares, que precisam e querem frequentar locais de lazer acessíveis e adaptados às suas necessidades. 
