@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# LAZER ACESSÍVEL 
 
-`CURSO`
+`Curso: Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Disciplina: Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1º semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O lazer acessível é um site para buscar por estabelecimentos ou espaços públicos acessíveis e voltados para o lazer que podem ser acessados e utilizados por toda a população.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* César Luis Costa Moreira
+* Douglas Delareti Simões 
+* Karinne Agnes Massensini Pereira
+* Mauricio Rodrigues Pinto
+* Pedro Henrique Ertal de Oliveira
+* Pedro Vitor S.França 
+* Rafael de Assis Oliveira 
+* Sarah Ellem Teixeira Ildefonso
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
