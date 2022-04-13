@@ -17,7 +17,7 @@ O lazer acessível é um site para buscar por estabelecimentos ou espaços públ
 * Pedro Henrique Ertal de Oliveira
 * Pedro Vitor S.França 
 * Rafael de Assis Oliveira 
-* Sarah Ellem Teixeira Ildefonso
+* Sarah Ellem Teixeira Ildelfonso
 
 ## Orientador
 
