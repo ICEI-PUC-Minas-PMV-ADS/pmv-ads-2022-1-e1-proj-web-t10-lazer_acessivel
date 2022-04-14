@@ -2,7 +2,7 @@
 
 `Curso: Análise e Desenvolvimento de Sistemas`
 
-`Disciplina: Projeto: Desenvolvimento de Aplicação Web Front-End`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
 `1º semestre`
 
