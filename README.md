@@ -1,4 +1,4 @@
-# LAZER ACESSÍVEL 
+# LAZER ACESSÍVEL ♿
 
 `Curso: Análise e Desenvolvimento de Sistemas`
 
