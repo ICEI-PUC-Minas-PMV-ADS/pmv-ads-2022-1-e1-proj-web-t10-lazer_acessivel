@@ -2,67 +2,60 @@
 
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
+
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-Cátia Vidal tem 35 anos, é professora de canto. Ela usa a música como forma de motivação para enfrentar os problemas. Possui dificuldade de encontrar restaurantes com cardápio em braille, além da dificuldade de locomoção em calçadas com buracos. Adora visitar lugares ao ar livre, cantar e escutar música.
+Cátia Vidal tem 35 anos, é professora de canto. Ela usa a música como forma de motivação para enfrentar os problemas. Possui dificuldade de encontrar restaurantes com cardápio em braille, além da dificuldade de locomoção em calçadas com buracos, devido a deficiência visual. Adora visitar lugares ao ar livre, cantar e escutar música.
 
-Luiz Paulo tem 45 anos, é um engenheiro de software. Sua família é a maior motivação, além de amar sua profissão e usar as críticas como combustível. Seus hobbies são jogar, assitir filmes e séries.
+Luiz Paulo tem 45 anos, é um engenheiro de software. Sua família é a maior motivação, além de amar sua profissão e usar as críticas como combustível. Seus hobbies são jogar, assitir filmes e séries. O que mais o frusta é não conseguir acessar e utilizar todos os locais já que eles não atendem à deficiência física.
 
-Alessandra Lopes tem 28 anos, é uma auxiliar administrativo. Mãe do Lucas que possui paralisia cerebral, 
+Alessandra Lopes tem 28 anos, é uma auxiliar administrativo. Mãe do Lucas que possui paralisia cerebral, adora passear com seu filho e infelizmente encontra dificuldades de encontrar locais acessíveis, assim como uma escola que atenda as necessidades do Lucas. Uma das suas motivações e fazer do mundo um lugar melhor para seu filho e todas as pessoas com deficiência.
+
+Joaquim Vicente tem 73 anos, é aposentado. Adora estar com a família reunida se divertindo, e por causa de uma dificuldade motora adquirida com a idade, não consegue ir em todos os ambientes de lazer junto aos seus parentes. Um dos seus hobbies são atividades rurais, como cuidar de horta e galinhas.
 
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... | QUERO/PRECISO ...  |PARA ...                  |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Cátia Vidal  | Conseguir ir em restaurantes com o cardápio em braile            | Escolher o que comer com praticidade e agilidade               |
+|Alessandra Lopes      | Encontrar parques que sejam acessíveis                  | Para levar meu filho para passear  |
+|Luiz Paulo | Utilizar banheiros apropriados para cadeirantes | Utilizá-lo sem nenhum desconforto ou dificuldade |
+|Luiz Paulo | Encontrar hotéis que sejam acessíveis | Para fazer viagens em família com tranquilidade |
+|Alessandra Lopes |  Quero conseguir encontrar locais de lazer acessíveis com mais facilidade | Para que possamos nos divertir sem nenhuma dificuldade |
+|Joaquim Vicente | Conseguir chegar aos locais | Poder sair em família |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
+
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Pop-up solicitando acesso a localização atual  | ALTA | 
+|RF-002| O site deve apresentar no top os principais locais, com as melhores avaliações, como recomendação    | MÉDIA |
+|RF-003| O site deve conter filtro de estilo de local (restaurante, parques, teatro) | MÉDIA |
+|RF-004| Área de cadastro do usuário | MÉDIA |
+|RF-005| Aba de comentários | ALTA |
+|RF-006| Aba de classificação para a avaliação dos usuários | ALTA |
+|RF-007| O site deve permitir salvar locais como favoritos | BAIXA |
+|RF-008| Em cada local cadastrado será obrigatório conter quais acessibilidades oferece e quais não | ALTA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |  ALTA | 
+|RNF-003| O site deve ter ferramentas  | MÉDIA |
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -70,12 +63,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 07/07/2022. |
+|02| O aplicativo deve se restringir às tecnologias básicas da Web no Front-end         |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho. |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
