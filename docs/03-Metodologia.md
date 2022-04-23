@@ -29,6 +29,7 @@ A equipe está organizada da seguinte maneira:
 
 Karinne Agnes Massensini Pereira
 
+
 ● Product Owner:  
 
 Pedro Henrique Ertal de Oliveira
