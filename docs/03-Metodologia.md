@@ -7,13 +7,13 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-|Ambiente |Plataforma |Link de Acesso |
-|------------- | ------------------| | ------------------------------------------- |
-|Repositório de código fonte |GitHub |https://github.com/ICEI-PUC-Minas-PMV-ADS/Lazer_Acessivel |
-|Documentos do projeto |Office 365 |Trabalho Grupo 1 - Desenvolvimento Front-End.docx |
-|Projeto de Interface e  Wireframes |Figma |https://www.figma.com/file/5FyLkRwQUMkUEYnft0CLA9/Untitled?node-id=0%3A1 |
-|Gerenciamento do Projeto |GitHub |lazeracessivel (github.com) |
-|Mural de ideias |Mural.co |Mural (Lazer Acessível) |
+| Ambiente | Plataforma | Link de Acesso |
+| ----------------------------||-------------| | ---------------------------------------------------------------------- |
+| Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/Lazer_Acessivel |
+| Documentos do projeto | Office 365 | Trabalho Grupo 1 - Desenvolvimento Front-End.docx |
+| Projeto de Interface e  Wireframes | Figma | https://www.figma.com/file/5FyLkRwQUMkUEYnft0CLA9/Untitled?node-id=0%3A1 |
+| Gerenciamento do Projeto | GitHub | lazeracessivel (github.com) |
+| Mural de ideias | Mural.co | Mural (Lazer Acessível) |
 
 ## Gestão de código fonte
 
