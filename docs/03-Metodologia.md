@@ -25,19 +25,27 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 ● Scrum Master:
+
 Karinne Agnes Massensini Pereira
 
 ● Product Owner:  
+
 Pedro Henrique Ertal de Oliveira
 
 ● Equipe de Desenvolvimento: 
+
 Rafael de Assis Oliveira 
+
 Pedro Vítor S.França 
+
 Maurício Rodrigues 
+
 César Luis Costa Moreira
 
 ● Equipe de Design: 
+
 Sarah Ellem Teixeira 
+
 Douglas Delareti Simoes
 
 
