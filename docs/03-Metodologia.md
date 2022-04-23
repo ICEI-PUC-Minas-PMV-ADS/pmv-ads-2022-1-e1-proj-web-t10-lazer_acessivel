@@ -65,6 +65,7 @@ A definição desta estrutura se baseou na proposta feita por Littlefield (2016)
 
 A tarefas são, ainda, etiquetadas em função da natureza da  
 atividade e seguem o seguinte esquema de categorias: 
+
 ● Para fazer 
 
 ● Em progresso  
