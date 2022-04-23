@@ -72,6 +72,8 @@ O quadro kanban do grupo no GitHub está disponível através da URL
 Lazer Acessível GitHub e é apresentado, no estado atual, na Figura X.  
 A definição desta estrutura se baseou na proposta feita por Littlefield (2016). 
 
+![Tela do Kanban](file:///C:/Users/ertal/Desktop/github/kanban.jpeg)
+
 A tarefas são, ainda, etiquetadas em função da natureza da  
 atividade e seguem o seguinte esquema de categorias: 
 
