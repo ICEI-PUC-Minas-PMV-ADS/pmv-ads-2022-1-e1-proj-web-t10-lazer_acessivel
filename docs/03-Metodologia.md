@@ -25,29 +25,29 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 
-● Scrum Master:
-
+● Scrum Master: <br />
 Karinne Agnes Massensini Pereira
+
 <br />
 
-● Product Owner:  
-
+● Product Owner: <br />
 Pedro Henrique Ertal de Oliveira
+
 <br />
 
-● Equipe de Desenvolvimento: 
-
+● Equipe de Desenvolvimento: <br />
 Rafael de Assis Oliveira <br /> 
 Pedro Vítor S.França <br /> 
 Maurício Rodrigues <br /> 
 César Luis Costa Moreira <br />
 
-● Equipe de Design: 
+<br />
 
-Sarah Ellem Teixeira 
-
+● Equipe de Design: <br />
+Sarah Ellem Teixeira <br />
 Douglas Delareti Simoes
 
+<br />
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:  
 
@@ -75,12 +75,9 @@ A definição desta estrutura se baseou na proposta feita por Littlefield (2016)
 ![kanban](https://user-images.githubusercontent.com/53317747/164844352-4f5dfe03-5d71-403a-874a-e09a7847b80f.jpeg)
 
 A tarefas são, ainda, etiquetadas em função da natureza da  
-atividade e seguem o seguinte esquema de categorias: 
-
-● Para fazer 
-
-● Em progresso  
-
+atividade e seguem o seguinte esquema de categorias: <br />
+● Para fazer <br />
+● Em progresso  <br />
 ● Feito 
 
 
