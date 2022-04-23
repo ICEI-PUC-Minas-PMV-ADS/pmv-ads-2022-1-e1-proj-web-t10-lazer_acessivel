@@ -28,22 +28,19 @@ A equipe está organizada da seguinte maneira:
 ● Scrum Master:
 
 Karinne Agnes Massensini Pereira
-
 <br />
 
 ● Product Owner:  
 
 Pedro Henrique Ertal de Oliveira
+<br />
 
 ● Equipe de Desenvolvimento: 
 
-Rafael de Assis Oliveira 
-
-Pedro Vítor S.França 
-
-Maurício Rodrigues 
-
-César Luis Costa Moreira
+Rafael de Assis Oliveira <br /> 
+Pedro Vítor S.França <br /> 
+Maurício Rodrigues <br /> 
+César Luis Costa Moreira <br />
 
 ● Equipe de Design: 
 
