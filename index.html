@@ -81,7 +81,8 @@
         <div class="cardInfo">
             <div class="cardInfo-texto">
                 <h2>Busque um Local</h2>
-                <p>Massa, at mattis porta ipsum morbi vitae tincidunt elit. Faucibus tincidunt elit risus morbi in. Quam volutpat neque phasellus auctor sapien amet.</p>
+                <p>Massa, at mattis porta ipsum morbi vitae tincidunt elit. Faucibus tincidunt elit risus morbi in. Quam
+                    volutpat neque phasellus auctor sapien amet.</p>
             </div>
         </div>
 
@@ -91,7 +92,8 @@
         <div class="cardInfo">
             <div class="cardInfo-texto">
                 <h2>Desfrute do Lazer</h2>
-                <p>Massa, at mattis porta ipsum morbi vitae tincidunt elit. Faucibus tincidunt elit risus morbi in. Quam volutpat neque phasellus auctor sapien amet.</p>
+                <p>Massa, at mattis porta ipsum morbi vitae tincidunt elit. Faucibus tincidunt elit risus morbi in. Quam
+                    volutpat neque phasellus auctor sapien amet.</p>
             </div>
         </div>
 
@@ -101,7 +103,8 @@
         <div class="cardInfo">
             <div class="cardInfo-texto">
                 <h2>Avalie o Local</h2>
-                <p>Massa, at mattis porta ipsum morbi vitae tincidunt elit. Faucibus tincidunt elit risus morbi in. Quam volutpat neque phasellus auctor sapien amet.</p>
+                <p>Massa, at mattis porta ipsum morbi vitae tincidunt elit. Faucibus tincidunt elit risus morbi in. Quam
+                    volutpat neque phasellus auctor sapien amet.</p>
             </div>
         </div>
     </div>
@@ -111,7 +114,7 @@
         <a href="#">Mais Locais</a>
     </div>
     <div id="LocaisR" class="containerCards">
-        <div class="cardLocalR">
+        <div class="cardLocalR card1">
             <div class="cardLocalR-img">
                 <img src="./assets/img/resteurante.png" alt="">
             </div>
@@ -129,10 +132,10 @@
                     <p>Acessível a Cadeirantes</p>
                 </div>
             </div>
-            <a class="linkVerMais" href="#">Ver mais +</a>
+            <a class="linkVerMais" href="#RestBrDev">Ver mais +</a>
         </div>
 
-        <div class="cardLocalR">
+        <div class="cardLocalR card2">
             <div class="cardLocalR-img">
                 <img src="./assets/img/hotel.png" alt="">
             </div>
@@ -153,7 +156,7 @@
             <a class="linkVerMais" href="#">Ver mais +</a>
         </div>
 
-        <div id="museu" class="cardLocalR">
+        <div class="cardLocalR card3" id="museu">
             <div class="cardLocalR-img">
                 <img src="./assets/img/museu.png" alt="">
             </div>
@@ -171,7 +174,7 @@
                     <p>Acessível a Cadeirantes</p>
                 </div>
             </div>
-            <a class="linkVerMais" href="#">Ver mais +</a>
+            <a class="linkVerMais" href="#MuseuPUC">Ver mais +</a>
         </div>
     </div>
 
@@ -182,13 +185,122 @@
         </div>
         <div class="empresas-texto">
             <h2>Direito ao Lazer</h2>
-            <p>Ultrices diam ligula suspendisse egestas quis sem iaculis. Nunc lacus a pretium feugiat quis sit lectus risus massa. Dictum nibh morbi fermentum, aliquet egestas sem euismod est. In ac dapibus ut sed id mauris, enim. Purus sit diam in a vel massa turpis tellus. Scelerisque praesent sagittis, libero et cursus. Euismod duis et sed felis, nullam.</p>
+            <p>Ultrices diam ligula suspendisse egestas quis sem iaculis. Nunc lacus a pretium feugiat quis sit lectus
+                risus massa. Dictum nibh morbi fermentum, aliquet egestas sem euismod est. In ac dapibus ut sed id
+                mauris, enim. Purus sit diam in a vel massa turpis tellus. Scelerisque praesent sagittis, libero et
+                cursus. Euismod duis et sed felis, nullam.</p>
         </div>
     </div>
 
     <footer id="rodape">
-        <p>Lazaer Acessível &copy</p> 
+        <p>Lazaer Acessível &copy</p>
     </footer>
+
+
+
+    <!--Modal Pop-up-->
+    <div id="restBrDev" class="modal-container">
+        <div class="modalCard">
+            <button class="modalCard-fechar">Fechar</button>
+            <div class="modalCard-conteudo">
+                <div class="conteudo-img">
+                    <img src="./assets/img/brdev.png" alt="logo do burguer dev">
+                </div>
+                <h2 class="conteudo-titulo">Restaurante BurguerDev</h2>
+                <div class="conteudo-avaliar">
+                    <a href="#">
+                        Avaliar
+                        <img src="./assets/img/Avaliação.png" alt="avaliado em X estrelas">
+                    </a>
+                </div>
+                <div class="conteudo-infos">
+                    <p><strong>Endereço:</strong> Rua Fictícia Um, 2022 - Eldorado, Contagem</p>
+                    <h4>Contato:</h4>
+                    <p>Telefone: (31) 3500-7070</p>
+                    <p><strong>Horário de funcionamento:</strong> De Quinta-feira a Domingo das 18 horas às 23:40</p>
+                    <h4>Acessibilidade:</h4>
+                    <div class="conteudoInfos-tags">
+                        <p>Acessível a cadeirantes</p>
+                        <p>Cardápio em Braile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hotelDev" class="modal-container">
+        <div class="modalCard">
+            <button class="modalCard-fechar">Fechar</button>
+            <div class="modalCard-conteudo">
+                <div class="conteudo-img">
+                    <img src="./assets/img/hoteldev.png" alt="">
+                </div>
+                <h2 class="conteudo-titulo">Hotel Dev</h2>
+                <div class="conteudo-avaliar">
+                    <a href="#">
+                        Avaliar
+                        <img src="./assets/img/Avaliação.png" alt="avaliado em X estrelas">
+                    </a>
+                </div>
+                <div class="conteudo-infos">
+                    <p><strong>Endereço:</strong> Rua Fictícia Dois, 2022A - Centro, Belo Horizonte</p>
+                    <h4>Contato:</h4>
+                    <p>Telefone: (31) 3319-7070</p>
+                    <p><strong>Horário de funcionamento:</strong>Todos os dias 24 horas</p>
+                    <h4>Acessibilidade:</h4>
+                    <div class="conteudoInfos-tags">
+                        <p>Acessível a cadeirantes</p>
+                        <p>Atendimento em libras</p>
+                        <p>Acervo para deficientes visuais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="museuPUC" class="modal-container">
+        <div class="modalCard">
+            <button class="modalCard-fechar">Fechar</button>
+            <div class="modalCard-conteudo">
+                <div class="conteudo-img">
+                    <img src="./assets/img/museupuc.png" alt="">
+                </div>
+                <h2 class="conteudo-titulo">Museu de Ciências Naturais PUC Minas</h2>
+                <div class="conteudo-avaliar">
+                    <a href="#">
+                        Avaliar
+                        <img src="./assets/img/Avaliação.png" alt="avaliado em X estrelas">
+                    </a>
+                </div>
+                <div class="conteudo-infos">
+                    <p><strong>Endereço:</strong> Rua Dom José Gaspar, 290 - Coração Eucarístico, Belo Horizonte</p>
+                    <h4>Contato:</h4>
+                    <p>Email: museu@pucminas.br</p>
+                    <p>Telefone: (31) 3319-4152</p>
+                    <p><strong>Horário de funcionamento:</strong> De Terça-feira a Sábado das 9 às 17 horas</p>
+                    <h4>Acessibilidade:</h4>
+                    <div class="conteudoInfos-tags">
+                        <p>Acessível a cadeirantes</p>
+                        <p>Atendimento em libras</p>
+                        <p>Acervo para deficientes visuais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--VLibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>
