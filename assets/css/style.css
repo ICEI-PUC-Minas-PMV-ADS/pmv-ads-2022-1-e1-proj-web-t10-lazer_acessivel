@@ -1,0 +1,173 @@
+:root{
+    --buttonColor: #6A92CE;
+    --bgColor: #FCFDFF;
+    --bgColor2: #F1F7FF;
+    --destaqueColor: #B76FF0;
+    --cinza: #E5E5E5;
+    --fontInputColor: #898989;
+    --fontButtonColor: #FCFDFF;
+
+    --logoWidth: 50px;
+
+    --letraM: capitalize;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--bgColor);
+}
+
+/*Estilização dos cards*/
+.containerCards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 120px 50px 120px;
+}
+.cardLocalR{
+    width: 318px;
+    height: 305px;
+    background-color: #fff;
+    border: 1px solid var(--cinza);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cardLocalR-img img{
+    width: 318px;
+    border-radius: 5px;
+}
+.cardLocalR-nome h3{
+    font-size: 20px;
+    margin: 12px 20px 26px 15px;
+}
+#museu h3{ margin: 5px 20px 10px 20px;}
+.cardLocalR-avaliacao img{
+    width: 65px;
+    margin: 0 20px 10px 15px;
+}
+.cardLocalR-tags{
+    display: flex;
+    align-items: center;
+}
+.tag{
+    background-color: var(--tagColor);
+    padding: 5px 8px;
+    margin: 0 10px 20px 15px;
+    border-radius: 5px;
+}
+.tag p{
+    font-size: 10px;
+}
+.linkVerMais{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin: 20px 15px;
+}
+.linkVerMais:hover{
+    color: var(--buttonColor);
+}
+
+/*Estilização do Pop-up*/
+.modal-container.mostrar{
+    display: flex;
+}
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modalCard{
+    background-color: var(--bgColor);
+    border-radius: 5px;
+    width: 70%;
+    min-width: 600px;
+    height: 80%;
+    position: relative;
+
+}
+.modalCard-fechar{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: var(--bgColor2);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(117, 117, 117, 0.25);
+    z-index: 1000;
+}
+.modalCard-fechar:hover{
+    transition: .3s;
+    background-color: var(--buttonColor);
+    color: #fff;
+}
+
+.modalCard-conteudo{
+    margin: 30px;
+}
+.conteudo-img img{
+    position: relative;
+    top: -30px;
+    left: -30px;
+    z-index: 1;
+    border-radius: 5px;
+}
+.conteudo-titulo{
+    position: absolute;
+    top: 215px;
+    z-index: 1000;
+    font-size: 22px;
+    color: var(--bgColor);
+}
+.conteudo-avaliar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+.conteudo-avaliar a{
+    display: flex;
+    align-items: center;
+    color: var(--buttonColor);
+    text-decoration: none;
+}
+.conteudo-avaliar img{
+    width: 60px;
+    margin-left: 15px;
+}
+.conteudo-infos h4{
+    margin-bottom: 15px;
+}
+.conteudo-infos h4, .conteudo-infos strong{
+    font-size: 13px;
+    margin-right: 5px;
+}
+.conteudo-infos p{
+    margin-bottom: 25px;
+}
+.conteudoInfos-tags{
+    display: flex;
+}
+.conteudoInfos-tags p{
+    margin-right: 15px;
+    padding: 5px 10px;
+    background-color: var(--tagColor);
+    border-radius: 5px;
+}
