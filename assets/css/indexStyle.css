@@ -14,16 +14,16 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70px;
+    height: 10vh;
     -webkit-box-shadow: 1px 1px 20px 6px rgba(117, 117, 117, 0.25); 
     box-shadow: 1px 1px 20px 6px rgba(117, 117, 117, 0.25);
     z-index: 1000;
 }
 #logo{
-    width: 115px;
+    width: 7%;
 }
 #menu{
-    width: 800px;
+    width: 55vw;
 }
 #menu-itens{
     display: flex;
@@ -32,12 +32,12 @@ header{
 }
 #inicio{
     position: relative;
-    left: 90px;
+    left: 7vw;
 }
 .menu-item a{
     font-weight: 500;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 0.95vw;
     color: #000;
     text-transform: var(--letraM);
 }
@@ -48,14 +48,14 @@ header{
     border-bottom: 3px solid var(--destaqueColor);
 }
 .menu-item a:last-child {
-    margin-left: 130px;
+    margin-left: 9vw;
 }
 #menu-item__button a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 0.95vw;
     text-transform: capitalize;
     color: var(--fontButtonColor);
-    padding: 8px 30px;
+    padding: 0.55vw 2vw;
     border-radius: 25px;
     background-color: var(--buttonColor);
 }
@@ -74,65 +74,67 @@ header{
     flex-direction: row-reverse;
     height: 28vw;
 }
+#bannerIlusra img{
+    width: 36vw;
+}
 #banner-container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 #banner-texto h1{
-    font-size: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    font-size: 1.8vw;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
     text-align: center;
 }
 #banner-texto p{
-    width: 500px;
-    font-size: 14px;
-    letter-spacing: .5px;
+    width: 32vw;
+    font-size: 0.9vw;
+    letter-spacing: 0.01vw;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 7vh;
 }
 .bannerCampoDeBusca{
     display: flex;
     align-items: center;
-    width: 700px;
+    width: 45vw;
     background-color: #fff;
-    padding: 15px 10px;
+    padding: 2.5vh 1.5vw;
     border-radius: 10px;
-    
 }
 #input input{
     border: none;
     border-right: 2px solid var(--destaqueColor);
-    margin-right: 25px;
-    width: 170px;
-    padding: 10px 20px;
-    font-size: 12px;
+    margin-right: 2vw;
+    width: 10vw;
+    padding: 1vh 1vw;
+    font-size: 1vw;
     outline: none;
-    background: url('https://api.iconify.design/ei/search.svg?color=%23777&height=1') no-repeat left center / contain;
-    background-size: 30px;
+    background: url(https://api.iconify.design/ei/search.svg?color=%23777&height=1) no-repeat left center / contain;
+    background-size: 2vw;
 }
 #input input:focus{
     background: none;
 }
 .filtros form select{
-    font-size: 12px;
+    font-size: 0.8vw;
     color: var(--fontInputColor);
-    width: 110px;
+    width: 6.5vw;
     border: none;
     outline: none;
-    margin-right: 10px;
+    margin-right: 1.1vw;
 }
 .filtros form:last-child{
-    margin-right: 30px;
+    margin-right: 1.5vw;
 }
 .bannerCampoDeBusca button{
     border: none;
     background-color: var(--buttonColor);
-    font-size: 12px;
+    font-size: 0.8vw;
     color: var(--fontButtonColor);
     font-weight: 500;
-    padding: 10px 20px;
+    padding: 1.3vh 1.2vw;
     border-radius: 10px;
     outline: none;
     cursor: pointer;
@@ -148,90 +150,97 @@ header{
 
 .containerCards{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 80px 120px 50px 120px;
+    margin: 11vh 8vw 7vh 0;
 }
 .cardInfo{
     border: 2px solid var(--cinza);
     border-radius: 10px;
     background-color: #fff;
-    width: 280px;
-    height: 300px;
+    width: 18vw;
+    height: 35vh;
 }
 
 .cardInfo-img{
-    padding: 20px;
+    padding: 1.2vw;
     background-color: #fff;
     border: 1px solid var(--cinza);
     border-radius: 100%;
 }
 .cardInfo-img img{
-    width: 40px;
+    width: 2vw;
     z-index: 10;
 }
 #img-busque{
-    position: absolute;
-    top: 560px;
-    left: 300px;
-    z-index: 1;
-}
-#img-desfrute{
-    position: absolute;
-    top: 560px;
-    left: 750px;
+    position: relative;
+    bottom: 19vh;
+    left: 16vw;
     z-index: 1;
 }
 #img-avalie{
-    position: absolute;
-    top: 560px;
-    right: 300px;
+    position: relative;
+    bottom: 19vh;
+    left: 16vw;
+    z-index: 1;
+}
+#img-desfrute{
+    position: relative;
+    bottom: 19vh;
+    left: 16vw;
     z-index: 1;
 }
 
 .cardInfo-texto{
-    padding: 80px 32px;
+    padding: 10vh 2vw;
     text-align: center;
 }
 .cardInfo-texto h2{
-    margin-bottom: 40px;
+    font-size: 1.2vw;
+    margin-bottom: 5vh;
 }
 .cardInfo-texto p{
-    font-size: 14px;
+    font-size: 0.82vw;
 }
 
 .cardLocalR-titulo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 170px 0px 170px;
+    margin: 11vh 9vw 0 9vw;
+}
+.cardLocalR-titulo h2{
+    font-size: 1.2vw;
 }
 .cardLocalR-titulo a{
     text-decoration: none;
     color: #000;
     font-weight: 600;
+    font-size: 0.8vw;
 }
 .cardLocalR-titulo a:hover{ color: var(--buttonEfeito);}
+
 .cardLocalR{
-    width: 318px;
-    height: 305px;
+    width: 20vw;
+    height: 42vh;
     background-color: #fff;
     border: 1px solid var(--cinza);
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 9vw;
 }
 .cardLocalR-img img{
-    width: 318px;
+    width: 20vw;
     border-radius: 5px;
 }
 .cardLocalR-nome h3{
-    font-size: 20px;
-    margin: 12px 20px 26px 15px;
+    font-size: 1.1vw;
+    margin: 1.5vh 1vw 3vh 1vw;
 }
-#museu h3{ margin: 5px 20px 10px 20px;}
+#museu h3{margin: 0.8vh 1vw 1.8vh 1vw;}
 .cardLocalR-avaliacao img{
-    width: 65px;
-    margin: 0 20px 10px 15px;
+    width: 3.7vw;
+    margin: 0 0 2vh 1vw;
 }
 .cardLocalR-tags{
     display: flex;
@@ -239,12 +248,12 @@ header{
 }
 .tag{
     background-color: var(--tagColor);
-    padding: 5px 8px;
-    margin: 0 10px 20px 15px;
+    padding: 0.7vh 0.5vw;
+    margin: 0 0 3vh 1vw;
     border-radius: 5px;
 }
 .tag p{
-    font-size: 10px;
+    font-size: 0.65vw;
 }
 .linkVerMais{
     text-decoration: none;
@@ -263,15 +272,17 @@ header{
     justify-content: center;
     background-color: var(--bgColor2);
     text-align: center;
-    height: 500px;
-    margin-top: 100px;
+    height: 55vh;
+    margin-top: 12vh;
 }
 .empresas-texto h2{
-    margin: 40px 0 20px 0;
+    margin: 5vh 0 3vh 0;
+    font-size: 1.1vw;
 }
 .empresas-texto p{
-    width: 800px;
-    margin-bottom: 80px;
+    width: 45vw;
+    margin-bottom: 10vh;
+    font-size: 0.84vw;
 }
 
 #rodape{
@@ -281,6 +292,7 @@ header{
     height: 80px;
     background-color: #b0caf1;
     font-weight: 600;
+    font-size: 0.8vw;
 }
 
 
