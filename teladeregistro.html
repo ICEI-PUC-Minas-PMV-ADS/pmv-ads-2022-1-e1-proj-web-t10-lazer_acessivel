@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleregistro.css">
+    <title>Registro | Lazer Acessível</title>
+</head>
+<body>
+    <div class="principal-login">
+        <div class="esquerda-login">
+            <img src="Images\Fundo_Esquerda.png" class="Fundo" alt="Acesibilidade">
+            <img src="Images\Lazeracessivel1.png"class="Logobranca" alt="Logo Lazer Acessível">
+        </div>
+        <div class="direita-login">
+            <div class="card-login">
+                <img src="Images\Lazeracessivel.png" class="LogoLA2" alt="Lazer Acessível Logotipo">
+                <br><br>
+                <div class="principal-text">
+                    <label for="name">Digite o seu nome</label>
+                    <input type="name" placeholder="Digite o seu nome">
+                    <br><br>
+                    <label for="date">Data de nascimento</label>
+                    <input type="date" placeholder="Data de nascimento">
+                    <br><br>
+                    <label for="email">Digite seu E-mail</label>
+                    <input type="email" placeholder="Digite o seu e-mail">
+                    <br><br>
+                    <label for="Crie uma senha">Senha</label>
+                    <input type="password" placeholder="Digite uma senha">
+                    <br><br>
+                    <label for="Confirme sua senha">Confirme sua senha</label>
+                    <input type="password" placeholder="Confirme sua senha">
+                    <br><br>
+                </div>
+                <button class="botao-login">Entrar</button>
+                <div class="Final">
+                    <h1 class="Other">Acesse com as redes sociais:</h1>
+                    <img src="Images\google.png" hspace ="10" class="LogoGoogle" alt="Entre com sua conta do Google">
+                    <img src="Images\facebook.png" hspace ="10" class="LogoFacebook" alt="Entre com sua conta do Facebook">
+                    <img src="Images\linkedin.png" hspace ="10" class="LogoLinkedin" alt="Entre com sua conta do LinkedIn">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
