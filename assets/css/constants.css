@@ -1,0 +1,15 @@
+:root{
+    --buttonColor: #6A92CE;
+    --buttonEfeito: #3f74c4;
+    --bgColor: #FCFDFF;
+    --bgColor2: #F1F7FF;
+    --destaqueColor: #B76FF0;
+    --cinza: #E5E5E5;
+    --fontInputColor: #898989;
+    --fontButtonColor: #FCFDFF;
+    --tagColor: #D5FFF5;
+
+    --logoWidth: 50px;
+
+    --letraM: capitalize;
+}
