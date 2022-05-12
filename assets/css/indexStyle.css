@@ -350,6 +350,7 @@ header{
     left: -30px;
     z-index: 1;
     border-radius: 5px;
+    width: 70vw;
 }
 .conteudo-titulo{
     position: absolute;
