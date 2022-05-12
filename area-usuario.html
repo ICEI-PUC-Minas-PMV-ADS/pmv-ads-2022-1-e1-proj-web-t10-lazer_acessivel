@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazer Acessivel</title>
+    <link rel="stylesheet" href="assets\css\style-area.css">
+</head>
+<body>
+	<div class="principal-login">
+        <div class="esquerda-login">
+			<div class="sidebar" >
+				<center>
+					<img src="Lazeracessivel (2).png" class="image" alt="">
+				</center>
+				<a href="#"><ion-icon name="desktop-outline"></ion-icon><span>Meus Dados</span></a>
+				<a href="#"><ion-icon name="calendar-clear-outline"></ion-icon><span>Minhas Avaliações</span></a>
+				<a href="#"><ion-icon name="camera-outline"></ion-icon><span>Lugares Salvos</span></a>
+				<button class="sair_btn">Sair</button>
+			</div>
+        </div>
+        <div class="direita-login">
+            <div class="content">
+				<label class="teste" style="float: left;width: 102.5vh;font-size: 20px;"><b>Dados do Usuário</b></label><br><br>
+
+				<div class="quadrado">
+					<div class="principal-text">
+						<label for="nome"><b>Seu nome:</b></label>
+						<input type="email" placeholder="Endereço de E-mail">
+					</div>
+					<br>
+					<div class="principal-text-nasc">
+						<label for="senha"><b>Data de nascimento:</b></label>
+						<input type="data" placeholder="Data de nascimento">
+					</div>
+					<br>
+					<div class="principal-text">
+						<label for="senha"><b>Seu e-mail:</b></label>
+						<input type="email" placeholder="E-mail">
+					</div>
+					<br>
+					<label style="float: left;width: 30.5vh;"for="senha"><b>Redefinir Senha:</b></label>
+					<label style="float: left;width: 25vh;"><b>Confirme sua senha:</b></label>
+					<div class="principal-text-teste">
+						&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+						<input style="float: left;" type="password" placeholder="Senha">
+						&emsp;&emsp;&emsp;
+						<input type="password" placeholder="Senha">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
