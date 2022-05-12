@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/indexStyle.css">
+    <link rel="stylesheet" href="./assets/css/indexResponsive.css">
+    <link rel="stylesheet" href="./assets/css/constants.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Lazer Acessível</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/img/Logo.png" alt="logo lazer acessível" id="logo">
+
+        <nav id="menu">
+            <ul id="menu-itens">
+                <li class="menu-item"><a id="inicio" href="./index.html">início</a></li>
+                <li class="menu-item"><a href="#">buscar lugares</a></li>
+                <li class="menu-item"><a href="#">cadastre-se</a></li>
+                <li id="menu-item__button"><a href="#">login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="bannerPrincipal">
+        <div id="bannerIlusra">
+            <img src="./assets/img/img1.png" alt="ilustração de um grupo de pessoas conversando">
+        </div>
+        <div id="banner-container">
+            <div id="banner-texto">
+                <h1>Lorem, ipsum dolor</h1>
+                <p>sit amet consectetur adipisicing elit. Nisi iusto, voluptates quam quaerat nam quod tempora ullam
+                    quibusdam laboriosam eos voluptatibus voluptatum quas. Sunt voluptatum earum iusto qui enim quod.
+                </p>
+            </div>
+            <div class="bannerCampoDeBusca">
+                <div id="input">
+                    <input type="search" name="" id="">
+                </div>
+                <div class="filtros">
+                    <form action="">
+                        <select name="cidade" id="cidade">
+                            <option value="">Cidade</option>
+                            <option value="bh">Belo Horizonte</option>
+                            <option value="contagem">Contagem</option>
+                            <option value="betim">Betim</option>
+                            <option value="sp">São Paulo</option>
+                        </select>
+                        <select name="necessidade" id="necessidade">
+                            <option value="">Acessível a</option>
+                            <option value="cadeirantes">Cadeirantes</option>
+                            <option value="deficientes visual">Deficientes visuais</option>
+                            <option value="idosos">Idosos</option>
+                            <option value="surdos">Surdos</option>
+                        </select>
+                        <select name="categoria" id="categoria">
+                            <option value="">Categoria</option>
+                            <option value="restaurante">Restaurante</option>
+                            <option value="hotel">Hotel</option>
+                            <option value="cinema/teatro">cinema/teatro</option>
+                            <option value="museus">Museus</option>
+                            <option value="parques">Parques</option>
+                        </select>
+                    </form>
+                </div>
+                <button type="submit">Buscar</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="containerCards">
+
+        <div id="img-busque" class="cardInfo-img">
+            <img src="https://api.iconify.design/gis/search-poi.svg?color=%23111&height=30" alt="">
+        </div>
+        <div class="cardInfo">
+            <div class="cardInfo-texto">
+                <h2>Busque um Local</h2>
+                <p>Massa, at mattis porta ipsum morbi vitae tincidunt elit. Faucibus tincidunt elit risus morbi in. Quam
+                    volutpat neque phasellus auctor sapien amet.</p>
+            </div>
+        </div>
+
+        <div id="img-desfrute" class="cardInfo-img">
+            <img src="https://api.iconify.design/fe/smile-heart.svg?color=%23111&height=30" alt="">
+        </div>
+        <div class="cardInfo">
+            <div class="cardInfo-texto">
+                <h2>Desfrute do Lazer</h2>
+                <p>Massa, at mattis porta ipsum morbi vitae tincidunt elit. Faucibus tincidunt elit risus morbi in. Quam
+                    volutpat neque phasellus auctor sapien amet.</p>
+            </div>
+        </div>
+
+        <div id="img-avalie" class="cardInfo-img">
+            <img src="https://api.iconify.design/gis/map-star.svg?color=%23111&height=10" alt="">
+        </div>
+        <div class="cardInfo">
+            <div class="cardInfo-texto">
+                <h2>Avalie o Local</h2>
+                <p>Massa, at mattis porta ipsum morbi vitae tincidunt elit. Faucibus tincidunt elit risus morbi in. Quam
+                    volutpat neque phasellus auctor sapien amet.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cardLocalR-titulo">
+        <h2>Locais Recomendados</h2>
+        <a href="#">Mais Locais</a>
+    </div>
+    
+    <div id="LocaisR" class="containerCards">
+        
+        <div class="cardLocalR card1">
+            <div class="cardLocalR-img">
+                <img src="./assets/img/resteurante.png" alt="">
+            </div>
+            <div class="cardLocalR-nome">
+                <h3>Restaurante BurguerDev</h3>
+            </div>
+            <div class="cardLocalR-avaliacao">
+                <img src="./assets/img/Avaliação.png" alt="">
+            </div>
+            <div class="cardLocalR-tags">
+                <div class="tag">
+                    <p>Cardápio em Braile</p>
+                </div>
+                <div class="tag">
+                    <p>Acessível a Cadeirantes</p>
+                </div>
+            </div>
+            <a class="linkVerMais" href="#RestBrDev">Ver mais +</a>
+        </div>
+
+        <div class="cardLocalR card2">
+            <div class="cardLocalR-img">
+                <img src="./assets/img/hotel.png" alt="">
+            </div>
+            <div class="cardLocalR-nome">
+                <h3>Hotel Dev</h3>
+            </div>
+            <div class="cardLocalR-avaliacao">
+                <img src="./assets/img/Avaliação.png" alt="">
+            </div>
+            <div class="cardLocalR-tags">
+                <div class="tag">
+                    <p>Cardápio em Braile</p>
+                </div>
+                <div class="tag">
+                    <p>Acessível a Cadeirantes</p>
+                </div>
+            </div>
+            <a class="linkVerMais" href="#">Ver mais +</a>
+        </div>
+
+        <div class="cardLocalR card3" id="museu">
+            <div class="cardLocalR-img">
+                <img src="./assets/img/museu.png" alt="">
+            </div>
+            <div class="cardLocalR-nome">
+                <h3>Museu de Ciências Naturais PUC Minas</h3>
+            </div>
+            <div class="cardLocalR-avaliacao">
+                <img src="./assets/img/Avaliação.png" alt="">
+            </div>
+            <div class="cardLocalR-tags">
+                <div class="tag">
+                    <p>Cardápio em Braile</p>
+                </div>
+                <div class="tag">
+                    <p>Acessível a Cadeirantes</p>
+                </div>
+            </div>
+            <a class="linkVerMais" href="#MuseuPUC">Ver mais +</a>
+        </div>
+    </div>
+
+    <div id="empresas">
+        <div class="empresas-texto">
+            <h2>Para Empresas</h2>
+            <p>Sit amet, feugiat a massa erat sed aliquam magna lorem. Amet, commodo massa accumsan sagittis.</p>
+        </div>
+        <div class="empresas-texto">
+            <h2>Direito ao Lazer</h2>
+            <p>Ultrices diam ligula suspendisse egestas quis sem iaculis. Nunc lacus a pretium feugiat quis sit lectus
+                risus massa. Dictum nibh morbi fermentum, aliquet egestas sem euismod est. In ac dapibus ut sed id
+                mauris, enim. Purus sit diam in a vel massa turpis tellus. Scelerisque praesent sagittis, libero et
+                cursus. Euismod duis et sed felis, nullam.</p>
+        </div>
+    </div>
+
+    <footer id="rodape">
+        <p>Lazer Acessível &copy</p>
+    </footer>
+
+
+
+    <!--Modal Pop-up-->
+    <div id="restBrDev" class="modal-container">
+        <div class="modalCard">
+            <button class="modalCard-fechar">Fechar</button>
+            <div class="modalCard-conteudo">
+                <div class="conteudo-img">
+                    <img src="./assets/img/brdev.png" alt="logo do burguer dev">
+                </div>
+                <h2 class="conteudo-titulo">Restaurante BurguerDev</h2>
+                <div class="conteudo-avaliar">
+                    <a href="#">
+                        Avaliar
+                        <img src="./assets/img/Avaliação.png" alt="avaliado em X estrelas">
+                    </a>
+                </div>
+                <div class="conteudo-infos">
+                    <p><strong>Endereço:</strong> Rua Fictícia Um, 2022 - Eldorado, Contagem</p>
+                    <h4>Contato:</h4>
+                    <p>Telefone: (31) 3500-7070</p>
+                    <p><strong>Horário de funcionamento:</strong> De Quinta-feira a Domingo das 18 horas às 23:40</p>
+                    <h4>Acessibilidade:</h4>
+                    <div class="conteudoInfos-tags">
+                        <p>Acessível a cadeirantes</p>
+                        <p>Cardápio em Braile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hotelDev" class="modal-container">
+        <div class="modalCard">
+            <button class="modalCard-fechar">Fechar</button>
+            <div class="modalCard-conteudo">
+                <div class="conteudo-img">
+                    <img src="./assets/img/hoteldev.png" alt="">
+                </div>
+                <h2 class="conteudo-titulo">Hotel Dev</h2>
+                <div class="conteudo-avaliar">
+                    <a href="#">
+                        Avaliar
+                        <img src="./assets/img/Avaliação.png" alt="avaliado em X estrelas">
+                    </a>
+                </div>
+                <div class="conteudo-infos">
+                    <p><strong>Endereço:</strong> Rua Fictícia Dois, 2022A - Centro, Belo Horizonte</p>
+                    <h4>Contato:</h4>
+                    <p>Telefone: (31) 3319-7070</p>
+                    <p><strong>Horário de funcionamento:</strong>Todos os dias 24 horas</p>
+                    <h4>Acessibilidade:</h4>
+                    <div class="conteudoInfos-tags">
+                        <p>Acessível a cadeirantes</p>
+                        <p>Atendimento em libras</p>
+                        <p>Acervo para deficientes visuais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="museuPUC" class="modal-container">
+        <div class="modalCard">
+            <button class="modalCard-fechar">Fechar</button>
+            <div class="modalCard-conteudo">
+                <div class="conteudo-img">
+                    <img src="./assets/img/museupuc.png" alt="">
+                </div>
+                <h2 class="conteudo-titulo">Museu de Ciências Naturais PUC Minas</h2>
+                <div class="conteudo-avaliar">
+                    <a href="#">
+                        Avaliar
+                        <img src="./assets/img/Avaliação.png" alt="avaliado em X estrelas">
+                    </a>
+                </div>
+                <div class="conteudo-infos">
+                    <p><strong>Endereço:</strong> Rua Dom José Gaspar, 290 - Coração Eucarístico, Belo Horizonte</p>
+                    <h4>Contato:</h4>
+                    <p>Email: museu@pucminas.br</p>
+                    <p>Telefone: (31) 3319-4152</p>
+                    <p><strong>Horário de funcionamento:</strong> De Terça-feira a Sábado das 9 às 17 horas</p>
+                    <h4>Acessibilidade:</h4>
+                    <div class="conteudoInfos-tags">
+                        <p>Acessível a cadeirantes</p>
+                        <p>Atendimento em libras</p>
+                        <p>Acervo para deficientes visuais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--VLibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <script src="./assets/js/pop-up.js"></script>
+</body>
+
+</html>
