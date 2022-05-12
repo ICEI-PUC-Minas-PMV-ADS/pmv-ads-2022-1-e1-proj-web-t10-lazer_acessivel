@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body * {
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    background: #132835;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+}
+.principal-login{
+    height: 100%;
+	width: 100%;
+    background: white;
+    display: flex;
+}
+.esquerda-login{
+    width: 22%;
+    height: 100vh;
+    background: #696969;
+    display: flex;
+}
+.direita-login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.content{
+	width: 100%;
+    height: 100%;
+	text-align: -webkit-center;
+	margin-top: 10%;
+}
+.quadrado{
+	width:50%;
+	height:48%;
+	border-radius: 10px;
+	border: solid 2px;
+	border-color : #999999;
+}
+.principal-text{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 9pt;
+	font-family: sans-serif;
+    margin: 10px 0px;
+}
+.principal-text-nasc{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 9pt;
+	font-family: sans-serif;
+    margin: 10px 0px;
+}
+.principal-text-nasc > input{
+    width: 30%;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    background: #ffffff;
+    color: #696969;
+    font-size: 9pt;
+    box-sizing: border-box;
+	float: left;
+}
+.principal-text-teste{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: unset;
+    font-size: 9pt;
+    font-family: sans-serif;
+    margin: 10px 0px;
+	float: left;
+}
+.principal-text-teste > input{
+    width: 38%;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    background: #ffffff;
+    color: #696969;
+    font-size: 9pt;
+    box-sizing: border-box;
+}
+.principal-text > input{
+    width: 72.5%;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    background: #ffffff;
+    color: #696969;
+    font-size: 9pt;
+    box-sizing: border-box;
+}
+.principal-text > label{
+    margin-bottom: 10px;
+	font-size: 17px;
+}
+.principal-text-teste > label{
+    margin-bottom: 10px;
+	font-size: 17px;
+}
+.principal-text-nasc > label{
+    margin-bottom: 10px;
+	font-size: 17px;
+}
+center{
+	margin-top: 30px;
+	margin-bottom: 110px;
+}
+
+.sair_btn{
+    padding: 1x;
+    background: #6A92CE;
+    text-decoration: none;
+    float: center;
+    margin-top: 380px !important;
+    margin-right: 0px;
+    border-radius: 100px;
+	border-width: 0px;
+    font-size: 15px;
+    color: #ffffff;
+    transition: 0.5s;
+    transition-property: background;
+	text-align: center;
+	width: 60% !important;
+    display: block;
+    line-height: 50px;
+    box-sizing: border-box;
+	font-weight: bold; 
+
+}
+.sair_btn:hover{
+    background: #4a9fcf;
+}
+.sidebar{
+    position: fixed;
+    width: 18%;
+    height: 100%;
+    padding-top: 30px;
+    left: 0;
+    background: #e1e9f5;
+    transition: 0.5s;
+    transition-property: left;
+	text-align: -webkit-center;
+}
+.sidebar .image{
+    width: 110px;
+    height: 50px;
+}
+.sidebar a{
+    color: #000000;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property:background ;
+	font-weight: bold; 
+	text-align: center;
+	align-items: center;
+	margin-top: 15px;
+}
+.sidebar a:hover{
+    background: #c3d3eb;
+}
+
