@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LazerAcessível - Página de Busca</title>
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--Pop-up JavaScript-->
+    <script defer src="./assets/js/pop-up.js"></script>
+</head>
+<body>
+
+    <!--Cabeçalho-->
+    <header>
+        <img src="Lazeracessivel (2).png" alt="logo lazer acessível" id="logo">
+        <nav id="menu">
+            <ul id="menu-item">
+                <li class="menu-item-inicio"><a id="inicio" href="index.html">Início</a></li>
+                <li class="menu-item-busca"><a href="busca.html">Buscar Lugares</a></li>
+                <li class="menu-item-cadastro"><a href="#">Cadastre-se</a></li>
+            </ul>
+        </nav>
+        <button id="login">Login</button>
+    </header><br>
+
+    <!--busca central-->
+    <div id="busca_central">
+    <input type="text" name="busca" id="busca" size="60" placeholder="Pesquise pelo nome do local">
+    <button id="buscar1">Buscar</button><br>
+    </div>
+
+    <!--Container do filtro-->
+    <aside class="filtro-container">
+        <h3>Filtrar Lugares</h3><br><br><br>
+        <h5>Acessibilidade</h5><br>
+        <input type="checkbox" name="ConteudoEmBraille">
+        <label for="ConteudoEmbraille">Conteúdo em Braille</label><br>
+        <input type="checkbox" name="ConteudoEmLibras">
+        <label for="ConteudoEmbLibras">Conteúdo em Libras</label><br>
+        <input type="checkbox" name="AtendimentoEmLibras">
+        <label for="AtendimentoEmLibras">Atendimento em Libras</label><br>
+        <input type="checkbox" name="Guia">
+        <label for="Guia">Guia</label><br>
+        <input type="checkbox" name="AcessoCadeirantes">
+        <label for="AcessoCadeirantes">Acesso para cadeirantes</label><br>
+        <input type="checkbox" name="EspacoCalmo">
+        <label for="EspacoCalmo">Espaço calmo</label><br><br><br><br>
+        <h5>Local</h5><br>
+        <input type="text" name="buscaFiltro" id="buscaFiltro" size="35" placeholder="Ex.: bairro, região, cidade"><br><br>
+        
+        <button id="buscar2">Buscar</button>
+    </aside>
+
+    <!--Container dos cards-->
+    <div id="LocaisR" class="containerCards">
+        <!--Restaurante-->
+        <div class="cardLocalR card1">
+            <div class="cardLocalR-img">
+                <img src="./assets/img/resteurante.png" alt="">
+            </div>
+            <div class="cardLocalR-nome">
+                <h3>Restaurante BurguerDev</h3>
+            </div>
+            <div class="cardLocalR-avaliacao">
+                <img src="./assets/img/Avaliação.png" alt="">
+            </div>
+            <div class="cardLocalR-tags">
+                <div class="tag">
+                    <p>Cardápio em Braille</p>
+                </div>
+                <div class="tag">
+                    <p>Acessível a Cadeirantes</p>
+                </div>
+            </div>
+            <a class="linkVerMais" href="#RestBrDev">Ver mais +</a>
+        </div>
+
+        <!--Hotel-->
+        <div class="cardLocalR card2">
+            <div class="cardLocalR-img">
+                <img src="./assets/img/hotel.png" alt="">
+            </div>
+            <div class="cardLocalR-nome">
+                <h3>Hotel Dev</h3>
+            </div>
+            <div class="cardLocalR-avaliacao">
+                <img src="./assets/img/Avaliação.png" alt="">
+            </div>
+            <div class="cardLocalR-tags">
+                <div class="tag">
+                    <p>Cardápio em Braille</p>
+                </div>
+                <div class="tag">
+                    <p>Acessível a Cadeirantes</p>
+                </div>
+            </div>
+            <a class="linkVerMais" href="#">Ver mais +</a>
+        </div>
+
+        <!--Museu-->
+        <div class="cardLocalR card3" id="museu">
+            <div class="cardLocalR-img">
+                <img src="./assets/img/museu.png" alt="">
+            </div>
+            <div class="cardLocalR-nome">
+                <h3>Museu de Ciências Naturais PUC Minas</h3>
+            </div>
+            <div class="cardLocalR-avaliacao">
+                <img src="./assets/img/Avaliação.png" alt="">
+            </div>
+            <div class="cardLocalR-tags">
+                <div class="tag">
+                    <p>Acessível a Cadeirantes</p>
+                </div>
+                <div class="tag">
+                    <p>Atendimento em Libras</p>
+            </div>
+            <a class="linkVerMais" href="#MuseuPUC">Ver mais +</a>
+        </div>
+    </div>
+    
+    <!--Galeria de arte-->
+
+    <div class="cardLocalR card3" id="galeria de arte">
+        <div class="cardLocalR-img">
+            <img src="./assets/img/museu.png" alt="">
+        </div>
+        <div class="cardLocalR-nome">
+            <h3>PUCM - Galeria de arte</h3>
+        </div>
+        <div class="cardLocalR-avaliacao">
+            <img src="./assets/img/Avaliação.png" alt="">
+        </div>
+        <div class="cardLocalR-tags">
+            <div class="tag">
+                <p>Acessível a Cadeirantes</p>
+            </div>
+            <div class="tag">
+                <p>Atendimento em Libras</p>
+        </div>
+        <a class="linkVerMais" href="#MuseuPUC">Ver mais +</a>
+    </div>
+</div>
+
+
+    <!--Pop-up-->
+    <div id="restBrDev" class="modal-container">
+        <div class="modalCard">
+            <button class="modalCard-fechar">Fechar</button>
+            <div class="modalCard-conteudo">
+                <div class="conteudo-img">
+                    <img src="./assets/img/brdev.png" alt="logo do burguer dev">
+                </div>
+                <h2 class="conteudo-titulo">Restaurante BurguerDev</h2>
+                <div class="conteudo-avaliar">
+                    <a href="#">
+                        Avaliar
+                        <img src="./assets/img/Avaliação.png" alt="avaliado em X estrelas">
+                    </a>
+                </div>
+                <div class="conteudo-infos">
+                    <p><strong>Endereço:</strong> Rua Fictícia Um, 2022 - Eldorado, Contagem</p>
+                    <h4>Contato:</h4>
+                    <p>Telefone: (31) 3500-7070</p>
+                    <p><strong>Horário de funcionamento:</strong> De Quinta-feira a Domingo das 18 horas às 23:40</p>
+                    <h4>Acessibilidade:</h4>
+                    <div class="conteudoInfos-tags">
+                        <p>Acessível a cadeirantes</p>
+                        <p>Cardápio em Braile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hotelDev" class="modal-container">
+        <div class="modalCard">
+            <button class="modalCard-fechar">Fechar</button>
+            <div class="modalCard-conteudo">
+                <div class="conteudo-img">
+                    <img src="./assets/img/hoteldev.png" alt="">
+                </div>
+                <h2 class="conteudo-titulo">Hotel Dev</h2>
+                <div class="conteudo-avaliar">
+                    <a href="#">
+                        Avaliar
+                        <img src="./assets/img/Avaliação.png" alt="avaliado em X estrelas">
+                    </a>
+                </div>
+                <div class="conteudo-infos">
+                    <p><strong>Endereço:</strong> Rua Fictícia Dois, 2022A - Centro, Belo Horizonte</p>
+                    <h4>Contato:</h4>
+                    <p>Telefone: (31) 3319-7070</p>
+                    <p><strong>Horário de funcionamento:</strong>Todos os dias 24 horas</p>
+                    <h4>Acessibilidade:</h4>
+                    <div class="conteudoInfos-tags">
+                        <p>Acessível a cadeirantes</p>
+                        <p>Atendimento em libras</p>
+                        <p>Acervo para deficientes visuais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="museuPUC" class="modal-container">
+        <div class="modalCard">
+            <button class="modalCard-fechar">Fechar</button>
+            <div class="modalCard-conteudo">
+                <div class="conteudo-img">
+                    <img src="./assets/img/museupuc.png" alt="">
+                </div>
+                <h2 class="conteudo-titulo">Museu de Ciências Naturais PUC Minas</h2>
+                <div class="conteudo-avaliar">
+                    <a href="#">
+                        Avaliar
+                        <img src="./assets/img/Avaliação.png" alt="avaliado em X estrelas">
+                    </a>
+                </div>
+                <div class="conteudo-infos">
+                    <p><strong>Endereço:</strong> Rua Dom José Gaspar, 290 - Coração Eucarístico, Belo Horizonte</p>
+                    <h4>Contato:</h4>
+                    <p>Email: museu@pucminas.br</p>
+                    <p>Telefone: (31) 3319-4152</p>
+                    <p><strong>Horário de funcionamento:</strong> De Terça-feira a Sábado das 9 às 17 horas</p>
+                    <h4>Acessibilidade:</h4>
+                    <div class="conteudoInfos-tags">
+                        <p>Acessível a cadeirantes</p>
+                        <p>Atendimento em libras</p>
+                        <p>Acervo para deficientes visuais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
